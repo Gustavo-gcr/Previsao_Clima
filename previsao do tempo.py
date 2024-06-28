@@ -1,8 +1,7 @@
 import requests
 from tkinter import *
 
-API_KEY = "ba7283eeaae1db8437785f7ea257dee1"
-
+API_KEY = "PEGUE SUA CHAVE DA API E COLE AQUI"
 def VerClima():
     cidade = entrada_cidade.get()  
     link = f"https://api.openweathermap.org/data/2.5/weather?q={cidade}&appid={API_KEY}&lang=pt_br"
